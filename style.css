@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url("https://images.unsplash.com/photo-1531482615713-2afd69097998");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quiz-container {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+
+    padding: 30px;
+    width: 360px;
+    border-radius: 15px;
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+
+button {
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: linear-gradient(to right, #070708, #7407e0);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+#timer {
+    font-weight: bold;
+    color: #333;
+}
+
+.correct {
+    background-color: #00f667;
+    color: white;
+}
+
+.wrong {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.options button:disabled {
+    opacity: 0.8;
+}
+.correct {
+    background: linear-gradient(to right, #56f705, #96c93d) !important;
+}
+
+.wrong {
+    background: linear-gradient(to right, #ff0000, #ff4b2b) !important;
+}
+
+#timer {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+#nextBtn {
+    margin-top: 15px;
+    background: linear-gradient(to right, #000000, #131212);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#nextBtn:hover {
+    background: linear-gradient(to right, #8922ff, #e64a19);
+}
+.options button {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+body {
+    transition: background-image 0.6s ease-in-out;
+}
+#resultScreen {
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
