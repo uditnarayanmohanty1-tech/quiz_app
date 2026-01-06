@@ -49,7 +49,7 @@ The project provides a real quiz-like experience with timers, sound effects, dyn
 
 This project is hosted using **GitHub Pages**:
 
-https://uditnarayanmohanty1-tech.github.io/quiz_app/
+https://uditnarayanmohanty1-tech.github.io/web_quiz_app/
 
 ---
 
