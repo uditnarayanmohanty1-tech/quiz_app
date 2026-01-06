@@ -2,11 +2,11 @@ const correctSound = new Audio("https://www.soundjay.com/buttons/sounds/button-4
 const wrongSound = new Audio("https://www.soundjay.com/buttons/sounds/button-10.mp3");
 const nextSound = new Audio("https://www.soundjay.com/buttons/sounds/button-16.mp3");
 const bgImages = [
-  "https://images.unsplash.com/photo-1516321497487-e288fb19713f",
-  "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
-  "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
-  "https://images.unsplash.com/photo-1498079022511-d15614cb1c02",
-  "https://images.unsplash.com/photo-1509062522246-3755977927d7"
+  "https://cdn.pixabay.com/photo/2021/06/02/18/04/education-6305113_1280.jpg",
+  "https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_1280.png",
+  "https://cdn.pixabay.com/photo/2020/09/23/07/53/question-mark-5595294_1280.jpg",
+  "https://cdn.pixabay.com/photo/2020/12/03/09/47/pencil-5800079_1280.jpg",
+  "https://cdn.pixabay.com/photo/2022/03/15/08/23/school-supplies-7069759_1280.jpg"
 ];
 
 const backgrounds = [
@@ -171,3 +171,4 @@ function restartQuiz() {
     document.getElementById("resultScreen").style.display = "none";
     document.getElementById("startScreen").style.display = "block";
 }
+
